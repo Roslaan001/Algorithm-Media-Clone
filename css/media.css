@@ -1,0 +1,401 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-family: "basis_grotesque_promedium",sans-serif;
+    background-color: rgb(238, 238, 238);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fixed-nav-bg {
+    position: fixed;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100px;
+    z-index: 11;
+
+}
+
+
+.logo {
+    width: 120px;
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    left: 150px;
+    z-index: 15;
+
+}
+
+#logo {
+    width: 160px;
+    height: 50px;
+}
+
+/* nav {
+    c
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    top: 40px;
+    right: 150px;
+    width: 100%;
+    z-index: 17;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #cf2e2e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  
+  li a:hover:not(.active) {
+    text-decoration: underline black;
+
+  }
+  
+  .active {
+    text-decoration: underline-;
+  }
+
+  section.a {
+    background-image: url(/img/office3.webp);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    z-index: 10;
+  }
+
+  div.overlay-a {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+  }
+
+  .algorithm-media {
+    position: absolute;
+    width: 100%;
+    top: 300px;
+    text-align: center;
+    font-size: 3.5rem;
+    z-index: 20;
+    color: white;
+    line-height: 1.5;
+  }
+
+  section.b {
+    background-color: #cf2e2e;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    z-index:;
+  }
+
+  #img-v {
+    width: 620px;
+    height: 400px;
+  }
+
+  .img-office {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+  }
+
+  .our-vision {
+    position: absolute;
+    right: 120px;
+    top: 220px;
+    width: 28%;
+    color: white;
+    font-size: 2.4rem;
+
+  }
+
+  section.c {
+    position: relative;
+    width: 100%;
+    height:500px;
+  }
+
+  .our-commitment {
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    width: 450px;
+  }
+
+  .our {
+    font-size: 4rem;
+  }
+
+  .with {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  #read {
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    padding: 20px  30px;
+  }
+
+  #read:hover {
+    font-size: 2.3rem;
+  }
+
+  .pps {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 500px;
+    color: #cf2e2e;
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+
+  .vr {
+    border-left: 1px solid black;
+    height: 290px;
+    position: absolute;
+    top: -5px;
+    right: 510px;
+  }
+
+  section.d {
+    background-color: #cf2e2e;
+    background-color: #cf2e2e;
+    position: relative;
+    width: 100%;
+    height: 1150px;
+    z-index:;
+  }
+
+  #layout {
+    width: 900px;
+    height: 680px;
+  }
+
+  .we-are {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 550px;
+  }
+
+  .as-part {
+    color: white;
+    font-size: 1.9rem;
+    position: absolute;
+    top: 190px;
+    right: 200px;
+    width: 420px;
+    line-height: 1.3;
+  }
+
+  .layout  {
+    color: white;
+    font-size: 2.3rem;
+    position: absolute;
+    top: 400px;
+    left: 13%;
+    margin: auto;
+  }
+
+  section.e {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+
+  .client {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    font-size: 2.9rem;
+    font-weight: bold;
+  }
+
+  #partner {
+    width: 180px;
+    height: 180px;
+    border: 0.1px solid lightgrey;
+    padding: 16px;
+  }
+
+  .first-five {
+    position: absolute;
+    left: 170px;
+    top:100px;
+  }
+
+  .second-five {
+    position: absolute;
+    left: 170px;
+    top: 280px;
+  }
+
+  .third-five {
+    position: absolute;
+    left: 170px;
+    top: 460px;
+  }
+
+  section.f {
+    background-color: #cf2e2e;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    z-index:;
+  }
+
+  .all-text {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 700px;
+    text-align: center;
+  }
+
+  .ready {
+    font-size: 4rem;
+  }
+
+  .click-now {
+    font-size: 2rem;
+  }
+
+  #contact-us {
+    color: red;
+    background-color: white;
+    padding: 16px;
+    margin: auto;
+    font-size: 1.9rem;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  #contact-us:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: #cf2e2e;
+  }
+
+  #last-img {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+  }
+
+  footer {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+
+  #partner2 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightgrey;
+  }
+
+  .partner2 {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+  }
+
+  .get-in-touch {
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    font-size: 4rem;
+    width: 600px;
+  }
+
+  .we {
+    position: absolute;
+    left: 50px;
+    top: 600px;
+    font-size: 1.5rem;
+  }
+
+  .back {
+    position: absolute;
+    left: 50px;
+    top: 680px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #back {
+    text-decoration: none;
+    color: black;
+  }
+
+  .reserved {
+    position: absolute;
+    left: 450px;
+    top: 680px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #media {
+    text-decoration: none;
+    color: black;
+  }
+
+  #media:hover {
+    color: #cf2e2e;
+    text-decoration: underline black;
+  } 
+
+  .follow {
+    position: absolute;
+    left: 1100px;
+    top: 680px;
+    
+  }
+  
+
+
+
+
+
